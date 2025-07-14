@@ -565,13 +565,17 @@ const App = () => {
             <button className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               <span className="flex items-center justify-center gap-2">
                 <Mail className="w-5 h-5" />
-                Download Resume
+                <a href="mailto:damilolaadejobi.ad@gmail.com" className="text-white">
+                  Download Resume
+                </a>
               </span>
             </button>
             <button className="border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-400 hover:text-white transition-all duration-300 backdrop-blur-sm">
               <span className="flex items-center justify-center gap-2">
                 <Linkedin className="w-5 h-5" />
-                Connect on LinkedIn
+                <a href="https://www.linkedin.com/in/damilolaadejobi" target="_blank" rel="noopener noreferrer" className="text-current">
+                  Connect on LinkedIn
+                </a>
               </span>
             </button>
           </motion.div>
