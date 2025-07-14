@@ -329,10 +329,13 @@ const App = () => {
               <div className="relative overflow-hidden rounded-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1652105425180-3cc628d303cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwcHJvZmVzc2lvbmFsfGVufDB8fHxibHVlfDE3NTI1MzU0Mzh8MA&ixlib=rb-4.1.0&q=85"
-                  alt="Professional Cloud Architect"
+                  alt="Damilola Adejobi - Cloud Solutions Architect"
                   className="w-full h-96 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent"></div>
+              </div>
+              <div className="absolute bottom-4 left-4 text-white">
+                <p className="text-sm opacity-80">Please provide your LinkedIn profile picture to replace this placeholder</p>
               </div>
             </motion.div>
           </motion.div>
