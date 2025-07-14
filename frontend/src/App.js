@@ -184,6 +184,44 @@ const App = () => {
     }
   ];
 
+  const testimonials = [
+    {
+      name: "Ihuoma Luke",
+      role: "Virtual Technical Advisor Azure App Service Dev",
+      company: "Azure Cloud Engineer | Azure DevOps Engineer",
+      testimonial: "I highly recommend Dami as a Cloud Engineer. He possesses an exceptional grasp of cloud technologies, demonstrating expertise in Azure showcasing both technical acumen and collaborative skills. He is a reliable team member, consistently delivering high-quality solutions aligned with best practices.",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Abiodun Ibrahim",
+      role: "SRE | DevOps Engineer",
+      company: "MTN Nigeria Ex-Atos | 7x Azure | Microsoft Certified Trainer",
+      testimonial: "I am delighted to recommend Damilola Adejobi for any Cloud/DevOps role. I have known Damilola for five years, and in that time, he has consistently demonstrated exceptional skills and dedication. Specializing in Azure DevOps and AWS, Damilola's technical proficiency and ability to design and optimize cloud solutions are outstanding. His expertise, combined with three years of experience, makes him a valuable asset to any team.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Mary Ajayi",
+      role: "Cloud/DevOps Engineer | IAM Specialist",
+      company: "Technical Support | Multi Cloud Certified (AWS, Azure and GCP)",
+      testimonial: "Damilola's attention to detail and commitment to excellence shine through in every project. From designing scalable infrastructures to optimizing system performance. His collaborative nature and strong communication skills make him an asset to any team. I recommend Damilola for any cloud engineering role; his dedication and technical proficiency make him a standout professional in the field.",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b9611080?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Oluwatosin Ajala",
+      role: "Subject Matter Expert",
+      company: "Tek Experts | Azure IAM Engineer | CyberSecurity Enthusiast",
+      testimonial: "Damilola possesses a deep understanding of cloud computing principles and has demonstrated exceptional proficiency in designing, implementing, and optimizing cloud-based infrastructure. His technical expertise extends across a wide range of cloud platforms, including Azure/AWS, and consistently leverages this knowledge to deliver high-quality solutions that align with business objectives. I wholeheartedly recommend Damilola for any role in Cloud Operations.",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Afeez Ojuolape",
+      role: "IT Service Delivery | Operations Management",
+      company: "IT Management Professional | Customer Service Management",
+      testimonial: "I am pleased to recommend Damilola without reservation. He is a consummate support professional who consistently demonstrates a high level of expertise and dedication in his work.",
+      image: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
       {/* Hero Section */}
