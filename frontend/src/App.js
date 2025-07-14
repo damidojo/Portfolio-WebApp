@@ -387,7 +387,7 @@ const App = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-slate-900 to-blue-900">
+      <section id="projects" className="py-20 px-4 bg-gradient-to-b from-slate-900 to-blue-900">
         <div className="max-w-7xl mx-auto">
           <motion.h2 
             className="text-4xl md:text-5xl font-bold text-center text-white mb-16"
