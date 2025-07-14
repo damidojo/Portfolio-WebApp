@@ -486,8 +486,53 @@ const App = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-20 px-4 bg-gradient-to-b from-blue-900 to-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <motion.h2 
+            className="text-4xl md:text-5xl font-bold text-center text-white mb-16"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            Client <span className="text-blue-400">Testimonials</span>
+          </motion.h2>
+          
+          <motion.div 
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            variants={staggerChildren}
+          >
+            {testimonials.map((testimonial, index) => (
+              <motion.div 
+                key={index}
+                variants={fadeInUp}
+                className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-blue-500/20 hover:border-blue-400/40 transition-all duration-300"
+              >
+                <div className="flex items-center mb-4">
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <h3 className="text-white font-semibold">{testimonial.name}</h3>
+                    <p className="text-blue-300 text-sm">{testimonial.role}</p>
+                    <p className="text-blue-400 text-xs">{testimonial.company}</p>
+                  </div>
+                </div>
+                <p className="text-blue-100 leading-relaxed italic">"{testimonial.testimonial}"</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-gradient-to-t from-slate-900 to-blue-900">
+      <section id="contact" className="py-20 px-4 bg-gradient-to-t from-slate-900 to-blue-900">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2 
             className="text-4xl md:text-5xl font-bold text-white mb-6"
