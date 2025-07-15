@@ -366,6 +366,9 @@ const App = () => {
                   src="https://drive.google.com/uc?export=view&id=1dISCqh7OHjRY3TDd6N97zHdpRuzEXAuA"
                   alt="Damilola Adejobi - Cloud Solutions Design Engineer"
                   className="w-full h-96 object-cover object-center"
+                  onError={(e) => {
+                    e.target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
               </div>
