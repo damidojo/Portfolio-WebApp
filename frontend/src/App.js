@@ -284,7 +284,7 @@ const App = () => {
               Cloud Solutions
             </span>
             <br />
-            <span className="text-white">Architect</span>
+            <span className="text-white">Design Engineer</span>
           </motion.h1>
           
           <motion.p 
