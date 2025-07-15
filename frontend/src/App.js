@@ -362,17 +362,11 @@ const App = () => {
             
             <motion.div variants={fadeInUp} className="relative">
               <div className="relative overflow-hidden rounded-2xl">
-                {/* Profile Picture Placeholder - Replace with actual image */}
-                <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-4xl font-bold">DA</span>
-                    </div>
-                    <p className="text-lg font-semibold">Damilola Adejobi</p>
-                    <p className="text-sm opacity-90">Cloud Solutions Design Engineer</p>
-                    <p className="text-xs opacity-70 mt-2">LinkedIn Profile Picture<br/>Ready for Integration</p>
-                  </div>
-                </div>
+                <img 
+                  src="/profile.jpg"
+                  alt="Damilola Adejobi - Cloud Solutions Design Engineer"
+                  className="w-full h-96 object-cover object-center"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
               </div>
             </motion.div>
