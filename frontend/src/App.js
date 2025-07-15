@@ -627,12 +627,19 @@ const App = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <button className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button 
+              onClick={() => {
+                // Create a temporary link to download resume
+                const link = document.createElement('a');
+                link.href = '/resume.pdf'; // This will be replaced with actual resume file
+                link.download = 'Damilola_Adejobi_Resume.pdf';
+                link.click();
+              }}
+              className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
               <span className="flex items-center justify-center gap-2">
                 <Mail className="w-5 h-5" />
-                <a href="mailto:damilolaadejobi.ad@gmail.com" className="text-white">
-                  Download Resume
-                </a>
+                Download Resume
               </span>
             </button>
             <button className="border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-400 hover:text-white transition-all duration-300 backdrop-blur-sm">
