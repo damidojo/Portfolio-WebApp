@@ -541,7 +541,7 @@ const App = () => {
             viewport={{ once: true }}
             variants={staggerChildren}
           >
-            {testimonials.map((testimonial, index) => (
+            {testimonials.slice(0, 9).map((testimonial, index) => (
               <motion.div 
                 key={index}
                 variants={fadeInUp}
@@ -559,10 +559,37 @@ const App = () => {
                     <p className="text-blue-400 text-xs">{testimonial.company}</p>
                   </div>
                 </div>
-                <p className="text-blue-100 leading-relaxed italic">"{testimonial.testimonial}"</p>
+                <p className="text-blue-100 leading-relaxed italic">"{testimonial.testimonial.length > 200 ? testimonial.testimonial.substring(0, 200) + '...' : testimonial.testimonial}"</p>
               </motion.div>
             ))}
           </motion.div>
+          
+          {testimonials.length > 9 && (
+            <motion.div 
+              className="mt-12 text-center"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              <p className="text-blue-300 mb-4">+ {testimonials.length - 9} more testimonials from industry professionals</p>
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-blue-500/20 hover:border-blue-400/40 transition-all duration-300 max-w-2xl mx-auto">
+                <div className="flex items-center mb-4">
+                  <img 
+                    src={testimonials[9].image} 
+                    alt={testimonials[9].name}
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <h3 className="text-white font-semibold">{testimonials[9].name}</h3>
+                    <p className="text-blue-300 text-sm">{testimonials[9].role}</p>
+                    <p className="text-blue-400 text-xs">{testimonials[9].company}</p>
+                  </div>
+                </div>
+                <p className="text-blue-100 leading-relaxed italic">"{testimonials[9].testimonial}"</p>
+              </div>
+            </motion.div>
+          )}
         </div>
       </section>
 
