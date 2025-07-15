@@ -338,7 +338,7 @@ const App = () => {
                 <span className="text-blue-400"> Cloud Expert</span>
               </h2>
               <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-                Results-driven Cloud Solutions Architect and DevOps Engineer with over 6 years of experience, 
+                Results-driven Cloud Solutions Design Engineer and DevOps Engineer with over 6 years of experience, 
                 specialized in designing, deploying, and optimizing scalable, high-availability, and secure cloud solutions 
                 primarily on Microsoft Azure.
               </p>
