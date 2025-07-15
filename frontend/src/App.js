@@ -219,6 +219,41 @@ const App = () => {
       company: "IT Management Professional | Customer Service Management",
       testimonial: "I am pleased to recommend Damilola without reservation. He is a consummate support professional who consistently demonstrates a high level of expertise and dedication in his work.",
       image: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Temitope Obasanmi",
+      role: "DevOps Engineer | SRE | Cloud Engineer",
+      company: "Technology Enthusiast",
+      testimonial: "I have had the privilege of working closely with Damilola, an outstanding Cloud Engineer whose expertise and dedication have significantly contributed to our team's success. Damilola possesses an in-depth knowledge of cloud technologies and consistently demonstrates exceptional problem-solving skills. His ability to design, implement, and optimize cloud infrastructure has been instrumental in driving our projects forward. Beyond his technical proficiency, Damilola is an exemplary team player. He is always willing to share his insights, mentor others, and collaborate effectively to overcome challenges. His proactive approach and strong work ethic make him a reliable and valued member of the team.",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Abiodun Adu",
+      role: "Cloud Support Engineer (Azure) | Frontend Engineer",
+      company: "Nextjs/React | Ex-GE HealthCare",
+      testimonial: "Damilola is a proactive fellow. He's got great problem solving skills and seeing clients satisfied gives him excitement. Working with Damilola is always fun 💯.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Peter Abolude",
+      role: "DevOps Engineer",
+      company: "Cloud Infrastructure Specialist",
+      testimonial: "I highly recommend Damilola as a Cloud Engineer. He possesses an exceptional grasp of cloud technologies, demonstrating expertise in Azure showcasing both technical acumen and collaborative skills. He is a reliable team member, consistently delivering high-quality solutions aligned with best practices. Damilola would be a valuable asset to any organization seeking a skilled and dedicated Cloud Engineer.",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Daniel Njoku",
+      role: "Software | Cloud | DevOps | SRE | Data Engineer",
+      company: "Technical Support Specialist | Security | AI & Automation",
+      testimonial: "I highly recommend Damilola as a colleague. His talent, unwavering determination, and eagerness to learn have been invaluable to our team's success. Damilola's dedication and positive attitude make him a valuable asset, and I believe he will continue to excel in any role he takes on.",
+      image: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Bhupinder Singh",
+      role: "Azure Cloud Architect",
+      company: "Microsoft Azure Specialist",
+      testimonial: "I had the pleasure of collaborating with Damilola on several projects, including an Azure support ticket we raised to Microsoft, where his expertise in cloud engineering truly shone. His deep understanding of cloud technologies, coupled with his problem-solving skills, consistently ensured the successful resolution of our challenges. Damilola is not only technically proficient but also a great team player, always willing to share his knowledge and collaborate effectively. I highly recommend Damilola for any cloud engineering role and am confident he will excel wherever he goes.",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b9611080?w=150&h=150&fit=crop&crop=face"
     }
   ];
 
